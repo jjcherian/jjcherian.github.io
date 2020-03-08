@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 title: John Cherian
-description: Future statistician who does something useful
+description: Scientific Associate at D.E. Shaw Research
+baseurl: "" 
+url: ""
+twitterusername: jjcherian
+github_username: jjcherian
+
+plugins:
+  - jekyll-feed
