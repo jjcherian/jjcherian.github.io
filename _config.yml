@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "John Cherian"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a Scientific Associate at D.E. Shaw Research interested in the intersection of optimization and statistics."
+  bio    : "Applied Statistician"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-inbox"
