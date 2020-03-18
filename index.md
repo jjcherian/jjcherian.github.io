@@ -10,7 +10,7 @@ I'm a Scientific Associate at [D.E. Shaw Research](https://www.deshawresearch.co
 Since 2017, I've been working on improving force fields for biomolecular simulation. With the goal of developing a highly accurate polarizable force field for molecular dynamics simulation, I've worked on the following projects:
 * An application of the fused LASSO to atom type selection for small-molecule force fields
 * An asynchronous, stochastic second-order optimization method for nonlinear least-squares problems
-* A generalization bound for bi-level optimization, as well as the development of an efficient algorithm for minimizing said bound
+* A generalization bound for bi-level optimization, as well as an efficient algorithm for minimizing that bound
 
 
 
