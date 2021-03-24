@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: John Cherian
-email: john.jcheri@gmail.com
+email: jcherian@stanford.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  My name's John Cherian and I'm a Scientific Associate at D.E. Shaw Research.
+  My name's John Cherian and I'm a PhD student in Statistics.
 twitter_username: jjcherian
 minimal_mistakes_skin: default
 search: true
@@ -57,9 +57,9 @@ plugins:
 author:
   name     : "John Cherian"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "Statistician"
-  location : "New York, NY"
-  email    : "john.jcheri@gmail.com"
+  bio      : "PhD Student in Statistics"
+  location : "Stanford, CA"
+  email    : "jcherian@stanford.edu"
   linkedin : "jjcherian"
   twitter  : "jjcherian"
 
@@ -67,7 +67,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-inbox"
-      url: "mailto:john.jcheri@gmail.com"
+      url: "mailto:jcherian@stanford.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/jjcherian"
