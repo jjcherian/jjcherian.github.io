@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Election Modeling
+description: Election modeling for The Washington Post.
+img: assets/img/va_election_model.jpg
+redirect: https://www.washingtonpost.com/elections/2021/11/02/election-model-explained/ 
+importance: 1
 category: work
 ---
 
