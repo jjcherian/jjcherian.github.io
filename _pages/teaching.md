@@ -7,7 +7,7 @@ nav: true
 ---
 
 ## Instructor
-* STATS 302: Qualifying Exams Workshop: Theory (Summer 2022)
+* STATS 302: Qualifying Exams Workshop - Theory (Summer 2022)
 
 ## Teaching Assistant
 * STATS 300B: Theory of Statistics II (Winter 2022)
