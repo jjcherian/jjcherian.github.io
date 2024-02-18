@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I've taught for.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Instructor
 
-Organize your courses by years, topics, or universities, however you like!
+STATS 390: Statistical Consulting - Summer 2023
+STATS 302: Qualifying Exams Workshop (Theory) - Summer 2022
+
+## Teaching Assistant
+
+STATS 300B: Asymptotic Statistics - Winter 2022, Winter 2024
+CS 229M: Machine Learning Theory - Autumn 2021, Autumn 2022
+STATS 200: Introduction to Statistical Inference - Autumn 2023
+STATS 202: Data Mining - Autumn 2020
+STATS 363: Modern Statistics for Modern Biology - Spring 2021
