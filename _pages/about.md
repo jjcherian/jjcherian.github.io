@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 Sequoia Hall </p>
-    <p>123 390 Jane Stanford Way </p>
+    <p>Sequoia Hall </p>
+    <p>390 Jane Stanford Way </p>
     <p>Stanford, CA 94305</p>
 
 news: false # includes a list of news items
