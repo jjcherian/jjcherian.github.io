@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Statistics
+subtitle:
 
 profile:
   align: right
