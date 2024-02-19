@@ -86,14 +86,14 @@ The difference between split CP and our naive strategy lies in this somewhat mys
 
 ### Coverage debiasing 
 
-In the following experiment, we will assume that our $$n$$ conformity scores come from a standard normal distribution, i.e., $$S(X_i, Y_i) \stackrel{i.i.d.}{\sim} \mathcal{N}(0, 1)$.<d-footnote>The choice of a standard normal here is really just for convenience. You can rerun this experiment with a heavy-tailed distribution and the results will remain qualitatively similar.</d-footnote> 
+In the following experiment, we will assume that our $$n$$ conformity scores come from a standard normal distribution, i.e., $$S(X_i, Y_i) \stackrel{i.i.d.}{\sim} \mathcal{N}(0, 1)$$.<d-footnote>The choice of a standard normal here is really just for convenience. You can rerun this experiment with a heavy-tailed distribution and the results will remain qualitatively similar.</d-footnote> 
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gaussian_empirical.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gaussian_conformal.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div> -->
+</div>
 
