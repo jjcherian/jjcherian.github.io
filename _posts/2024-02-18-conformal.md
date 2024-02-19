@@ -15,6 +15,7 @@ bibliography: 2024-02-18-conformal.bib
 
 toc:
   - name: Introduction
+  - name: (Not-so) Technical Description
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
@@ -44,13 +45,13 @@ This guarantee is about as clean of a result as you'll see in statistics. It req
 So, why isn't Ben satisfied? He argues that conformal prediction is sweeping two important details under the rug. The guarantee stated above is *marginal* over both the constructed prediction set function $$\hat{C}_n(\cdot)$$ as well as the new students. In plain English, after reading Ben's blog posts, the admissions officer might ask the following questions:
 
 * Even if the prediction set covers the true GPA with high probability over all the applicants, could it be terribly inaccurate for this particular student?
-* What if, by chance, the $$n$$ students you used to construct the prediction set were not representative of the data-generating distribution $$P$$? Even if I'm willing to settle for coverage that only holds marginally over the new students, how big could the following coverage deviation possibly be?
+* What if, by chance, the $$n$$ students you used to construct the prediction set were not representative of the data-generating distribution $$P$$? Even if I'm willing to settle for coverage that only holds marginally over the new students, how big could the following deviation in the realized coverage possibly be?
 
-$$\Pr(Y_{n + 1} \in \hat{C}_n(X_{n + 1}) \mid \hat{C}_n(\cdot)) - (1 - \alpha)$$
+$$\left |\Pr(Y_{n + 1} \in \hat{C}_n(X_{n + 1}) \mid \hat{C}_n(\cdot)) - (1 - \alpha) \right |$$
 
-The first question relates to a research area sometimes referred to as ``conditional'' predictive inference. It'll be the topic of a subsequent blog post, but in short, we're never going to be able to guarantee anything about a specific student without making some kind of assumption.<d-footnote>But is object-conditional predictive inference even well-defined? Do I really think that there's a probability distribution over GPAs for any particular student? It's certainly not true if I made $$Y_{n + 1}$$ an image label and $$X_{n + 1}$$ the set of pixels input to a neural network. Anyways, more on this later.</d-footnote>
+The first question relates to a research area sometimes referred to as ``conditional'' predictive inference. It'll be the topic of a subsequent blog post.<d-footnote>As a side note, is object-conditional predictive inference even well-defined? Do I really think that there's a probability distribution over GPAs for any particular student? It's certainly not true for other ML problems. Imagine if I defined Y to be an image label and X to be the set of pixels input to a neural network. What's random? Anyways, more on this later.</d-footnote>
 
-The second question will be the subject of today's post. 
+The second question will be the subject of today's post, but to come up with a satisfying answer, we're going to have dive a little deeper... 
 
-## Diving deeper
+## (Not-so) Technical Description
 
