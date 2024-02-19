@@ -16,7 +16,7 @@ bibliography: 2024-02-18-conformal.bib
 toc:
   - name: Introduction
   - name: What is conformal prediction doing?
-        - name: Bias correction
+        - name: Coverage debiasing
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 2
@@ -72,10 +72,10 @@ Parsing the definition of this prediction set to prove the coverage result above
 Given a pretty good point predictor $$f(\cdot)$$, the most natural construction for a prediction set is to simply add and subtract a constant to the prediction, e.g.,
 
 $$
-\hat{C}^{naive}_n(X_{n + 1}) = [f(X_{n + 1}) - \epsilon^*, f(X_{n + 1}) + \epsilon^*].
+\hat{C}^{naive}_n(X_{n + 1}) = [f(X_{n + 1}) - \epsilon, f(X_{n + 1}) + \epsilon].
 $$
 
-Intuitively, for this prediction set to be valid, we need $$\epsilon^*$$ to be larger than $$(1 - \alpha)$$-% of the errors we expect to see on out-of-sample data. Lucky for us, we already obtained a hold-out set that consists of exactly $$n$$ such out-of-sample errors. So, here's a naive strategy: what if we just used the empirical $$(1 - \alpha)$$ quantile of those values? This method for choosing $$\epsilon^*$$ yields a prediction set *nearly* identical to the split CP $$\hat{C}_n(\cdot)$$. Hopefully, you can convince yourself that for this choice of $$\epsilon^*$$, we can write
+Intuitively, for this prediction set to be valid, we need $$\epsilon$$ to be larger than $$(1 - \alpha)$$-% of the errors we expect to see on out-of-sample data. Lucky for us, we already obtained a hold-out set that consists of exactly $$n$$ such out-of-sample errors. So, here's a naive strategy: what if we just used the empirical $$(1 - \alpha)$$ quantile of those values? This method for choosing $$\epsilon$$ yields a prediction set *nearly* identical to the split CP $$\hat{C}_n(\cdot)$$. Hopefully, you can convince yourself that for this choice of $$\epsilon$$, we can write
 
 $$
 \hat{C}^{naive}_n(X_{n + 1}) = \left \{y : S(X_{n + 1}, y) \leq \text{Quantile}\left(1 - \alpha, \{S(X_i, Y_i)\}_{i = 1}^n \right) \right\}
@@ -84,4 +84,16 @@ $$
 The difference between split CP and our naive strategy lies in this somewhat mysterious $$\frac{\lceil (1 - \alpha) \cdot (n + 1) \rceil}{n}$$ value. To understand what that $$\frac{n + 1}{n}$$ factor is doing for us, let's first run an experiment to understand how it qualitatively affects our coverage.
 
 
+### Coverage debiasing 
+
+In the following experiment, we will assume that our $$n$$ conformity scores come from a standard normal distribution, i.e., $$S(X_i, Y_i) \stackrel{i.i.d.}{\sim} \mathcal{N}(0, 1)$$.<d-footnote>The choice of a standard normal here is really just for convenience. You can rerun this experiment with a heavy-tailed distribution and the results will remain qualitatively similar.</d-footnote> 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gaussian_empirical.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gaussian_conformal.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
