@@ -16,7 +16,7 @@ bibliography: 2024-02-18-conformal.bib
 toc:
   - name: Introduction
   - name: What is conformal prediction doing?
-        - name: Bias correction
+        - name: Coverage debiasing
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 2
@@ -86,7 +86,7 @@ The difference between split CP and our naive strategy lies in this somewhat mys
 
 ### Coverage debiasing 
 
-In the following experiment, we will assume that our $$n$$ conformity scores come from a standard normal distribution, i.e., $$S(X_i, Y_i) \stackrel{i.i.d.}{\sim} \mathcal{N}(0, 1)$.<d-footnote>The choice of a standard normal here is really just for convenience. I reran this experiment with a heavy-tailed distribution and the results remain qualitatively similar.</d-footnote> 
+In the following experiment, we will assume that our $$n$$ conformity scores come from a standard normal distribution, i.e., $$S(X_i, Y_i) \stackrel{i.i.d.}{\sim} \mathcal{N}(0, 1)$.<d-footnote>The choice of a standard normal here is really just for convenience. You can rerun this experiment with a heavy-tailed distribution and the results will remain qualitatively similar.</d-footnote> 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
