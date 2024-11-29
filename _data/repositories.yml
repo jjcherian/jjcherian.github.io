@@ -1,3 +1,6 @@
 github_repos:
   - jjcherian/conditional-conformal
   - jjcherian/fairaudit
+  - jjcherian/conformal-safety
+  - washingtonpost/elex-live-model
+  - washingtonpost/elex-solver
