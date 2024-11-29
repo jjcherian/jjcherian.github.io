@@ -36,11 +36,13 @@ nav_order: 4
 {% endif %}
 
 <<<<<<< HEAD
+
 <!-- ## GitHub Repositories -->
 
 =======
->>>>>>> 7c22e4800ab5e17a1401c70ac08bcbc74cb5b55e
-{% if site.data.repositories.github_repos %}
+
+> > > > > > > 7c22e4800ab5e17a1401c70ac08bcbc74cb5b55e
+> > > > > > > {% if site.data.repositories.github_repos %}
 
 ## GitHub Repositories
 
