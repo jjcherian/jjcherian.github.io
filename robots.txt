@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: jjcherian.github.io/sitemap.xml
+Sitemap: https://jjcherian.github.io/sitemap.xml
