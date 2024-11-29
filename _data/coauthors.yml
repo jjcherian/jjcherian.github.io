@@ -1,11 +1,11 @@
-"gibbs":
-  - firstname: ["Isaac", "I.", "I. S.", "Isaac Gibbs"]
-    url: https://isgibbs.github.io
+# "gibbs":
+#   - firstname: ["Isaac", "I.", "I. S.", "Isaac Gibbs"]
+#     url: https://isgibbs.github.io
 
-"candes":
-  - firstname: ["Emmanuel", "E.", "Emmanuel J.", "Emmanuel J. Candes"]
-    url: https://candes.su.domains
+# "candes":
+#   - firstname: ["Emmanuel", "E.", "Emmanuel J.", "Emmanuel J. Candes"]
+#     url: https://candes.su.domains
 
-"bronner":
-  - firstname: ["Lenny", "Lenny Bronner"]
-    url: https://lennybronner.com
+# "bronner":
+#   - firstname: ["Lenny", "Lenny Bronner"]
+#     url: https://lennybronner.com
