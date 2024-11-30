@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -73,6 +73,7 @@ github_username: jjcherian # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 scholar_userid: iH5niScAAAAJ # your Google Scholar ID
+bluesky_url: https://bsky.app/profile/jjcherian.bsky.social # bluesky
 blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
