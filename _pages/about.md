@@ -20,4 +20,4 @@ My research is motivated by fundamental questions about the reliability and fair
 
 Before starting my PhD, I spent 3 years at [D.E. Shaw Research](https://www.deshawresearch.com) (“DESRES”) where I worked on improving polarizable force fields for all-atom simulations. I joined DESRES after earning my B.S. in Mathematical and Computational Science and M.S. in Statistics from Stanford University in 2017.
 
-You can reach me at jcherian at stanford dot edu. A copy of my CV is available [here](https://jjcherian.github.io/assets/pdf/cv_dec24_norefs.pdf).
+You can reach me at jcherian at stanford dot edu. A copy of my CV is available [here](https://jjcherian.github.io/assets/pdf/cv_jan25.pdf).
